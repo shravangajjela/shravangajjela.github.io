@@ -1,0 +1,95 @@
+@import url(font-awesome.min.css);
+
+h1 { 
+    font-family: 'Product Sans', Arial, sans-serif; 
+    font-weight: 200;
+    font-size: 75;
+    margin-bottom: -0.1em;
+}
+
+.name{
+    text-align: center;
+}
+
+.vertical-align {
+    position: relative;
+    text-align: center;
+    top: 35%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon {
+    text-decoration: none;
+    border-bottom: none;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+
+.icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+.icon > .label {
+    display: none;
+}
+
+.icon.style2:before {
+    display: inline-block;
+    height: 2.75em;
+    line-height: 2.75em;
+    width: 2.75em;
+}
+
+.icon.major {
+    display: block;
+    margin: 0 0 1rem 0;
+}
+
+.icon.major:before {
+    font-size: 1.25rem;
+}
+
+a.icon.style2:before {
+    -moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+a.icon.style2:hover:before {
+    color: #47D3E5; 
+    
+}
+
+a.icon.style2:active:before {
+    color: #47D3E5;
+}
+
+a.button-resume {
+    background-color: white;
+    color: black;
+    border: 2px solid black; 
+    font-family: 'Product Sans', Arial, sans-serif; 
+    font-weight: 200;
+    padding: 5px;
+    text-decoration:none;
+    font-size: 18;
+    border-radius: 0.5em;
+    -webkit-transition-duration: 0.2s; 
+    transition-duration: 0.2s;
+}
+
+a.button-resume:hover {
+    color: #47D3E5;
+    border: 2px solid #47D3E5; 
+    
+}
+
