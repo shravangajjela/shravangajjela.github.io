@@ -77,12 +77,12 @@ a.icon.style2:before {
 }
 
 a.icon.style2:hover:before {
-    color: #47D3E5; 
+    color: #52B453; 
     
 }
 
 a.icon.style2:active:before {
-    color: #47D3E5;
+    color: #52B453;
 }
 
 a.button-resume {
@@ -99,8 +99,8 @@ a.button-resume {
 }
 
 a.button-resume:hover {
-    color: #47D3E5;
-    border: 2px solid #47D3E5; 
+    color: #52B453;
+    border: 2px solid #52B453; 
     
 }
 
