@@ -7,9 +7,16 @@ h1 {
     margin-bottom: -0.1em;
 }
 
+p{
+    font-family: 'Product Sans', Arial, sans-serif; 
+    font-weight: 200;
+    font-size: 1.5em;
+    margin-bottom: -0.1em;  
+}
+
 
 body { 
-  background: url("../../images/bg.jpg") no-repeat center center fixed; 
+  /* background: url("../../images/bg.jpg") no-repeat center center fixed;  */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,14 +26,24 @@ body {
 
 .name{
     text-align: center;
-    color: white;
+    color: black;
     
 }
+
+.desc{
+    text-align: center;
+    color: black;
+    
+}
+
+
 
 .vertical-align {
     position: relative;
     text-align: center;
-    top: 45%;
+    padding-top: 35em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -36,7 +53,7 @@ body {
     text-decoration: none;
     border-bottom: none;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 2em;
 }
 
@@ -86,8 +103,8 @@ a.icon.style2:active:before {
 }
 
 a.button-resume {
-    color: white;
-    border: 2px solid white;  
+    color: black;
+    border: 2px solid black;  
     font-family: 'Product Sans', Arial, sans-serif; 
     font-weight: 100;
     padding: 5px; 
