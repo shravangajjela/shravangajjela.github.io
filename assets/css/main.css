@@ -36,7 +36,7 @@ html, body {
   
 h1 { 
     font-size: 2em;
-    margin: 0.67em 0;
+    margin: 0em 0;
     -webkit-font-variant-ligatures: common-ligatures;
     -moz-font-variant-ligatures: common-ligatures;
     font-variant-ligatures: common-ligatures;
@@ -60,11 +60,6 @@ h1 {
     -moz-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
-    /* position:fixed;
-    top:0px;
-    bottom:0px;
-    left:0px;
-    right:0px;     */
 }
 
 h2 {
@@ -77,6 +72,20 @@ h2 {
     line-height: 1.5;
 
 
+}
+
+a, a:visited {
+  color: #07617d;
+  margin: 10px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover, a:focus {
+  color: #FFE2E2;
 }
 
 .button,
@@ -171,6 +180,8 @@ a.button.border:hover, .button.border:hover {
   
 }
 
+
+
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -204,7 +215,7 @@ input::-moz-focus-inner {
 }
 
 .cell .resume{
-    margin: 4.8rem 0 0 0;
+    margin: 2.5rem 0 0 0;
 }
 
 .cell .row {
@@ -234,6 +245,52 @@ input::-moz-focus-inner {
     margin: 0 0 .9rem 0;
 }
   
+.portfolio {
+ 
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 2.4rem;
+  line-height: 0;
+  text-align: center;
+}
+.portfolio::before {
+  display: block;
+  content: "";
+  width: 2px;
+  height: auto;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio li {
+  padding-left: 0;
+}
+.portfolio li a, .portfolio li a:visited {
+  color: black;
+}
+.portfolio li a:hover, 
+.portfolio li a:focus, 
+.portfolio li a:active {
+  color: #90CAF9;
+}
+
+ul {
+  list-style: disc;
+}
+
+li {
+  display: list-item;
+}
+
+ul ul {
+  margin: .6rem 0 .6rem 1.7rem;
+}
+
+
+
+
 @media only screen and (max-width: 1200px) {
     .cell h2 {
       font-size: 2.1rem;
@@ -265,6 +322,12 @@ input::-moz-focus-inner {
     .cell h1 br {
       display: none;
     }
+
+    .portfolio {
+      
+      font-size: 2.1rem;
+    }
+   
   
    
   }
@@ -297,8 +360,12 @@ input::-moz-focus-inner {
     .cell h1 {
       font-size: 4.2rem;
     }
-  
-   
+
+    .portfolio {
+     
+      font-size: 1.8rem;
+    }
+    
   }
 
   @media only screen and (max-width: 400px) {
@@ -308,7 +375,7 @@ input::-moz-focus-inner {
   
     .cell .row {
       padding-top: 4.8rem;
-      padding-bottom: 10.8rem;
+      padding-bottom: 4.8rem;
     }
     .cell h2 {
       font-size: 1.4rem;
