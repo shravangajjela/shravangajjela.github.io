@@ -1,123 +1,321 @@
 @import url(font-awesome.min.css);
+@import url("font-awesome/css/font-awesome.min.css");
+@import url("fonts.css");
 
+html {
+    font-size: 10px;
+  }
+  @media only screen and (max-width: 1024px) {
+    html {
+      font-size: 9.375px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    html {
+      font-size: 10px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    html {
+      font-size: 9.375px;
+    }
+  }
+  
+html, body {
+    height: 100%;
+}
+  
+  body {
+    font-family: "librebaskerville-regular", serif;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    color: #353535;
+    margin: 0;
+    padding: 0;
+  }
+  
 h1 { 
-    font-family: 'Product Sans', Arial, sans-serif; 
-    font-weight: 200;
-    font-size: 5.5em;
-    margin-bottom: -0.1em;
+    font-size: 2em;
+    margin: 0.67em 0;
+    -webkit-font-variant-ligatures: common-ligatures;
+    -moz-font-variant-ligatures: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    text-rendering: optimizeLegibility;
+    font-family: "montserrat-bold", sans-serif;
+    color: #151515;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    margin-bottom: 2.1rem;
+    font-size: 3.1rem;
+    line-height: 1.35;
+    letter-spacing: -.1rem;
 }
 
-p{
-    font-family: 'Product Sans', Arial, sans-serif; 
-    font-weight: 200;
-    font-size: 1.5em;
-    margin-bottom: -0.1em;  
+#main {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;    
+}
+
+h2 {
+    font-family: "montserrat-bold", sans-serif;
+    color: #151515;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    margin-bottom: 2.1rem;
+    font-size: 2rem;
+    line-height: 1.5;
+
+
+}
+
+.button,
+a.button,
+button,
+input[type="button"] {
+  display: inline-block;
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  height: 4.5rem;
+  line-height: 5.4rem;
+  padding: 0 3rem;
+  margin: 0.3rem 1.2rem 0;
+  background: #A5A5A5;
+  color: #222222;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  border: none;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover,
+a.button:hover,
+button:hover,
+.button:focus,
+button:focus, {
+  color: #52B453;
+  background: black;
+  outline: 1;
+  background-color: black;
+}
+
+.button.button-primary,
+a.button.button-primary,
+button.button-primary, {
+  background: #151515;
+  color: #FFFFFF;
+}
+
+.button.button-primary:hover,
+a.button.button-primary:hover,
+button.button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus, {
+  background: #030303;
+  color: #52B453;
+  
+}
+
+button.full-width, .button.full-width {
+  width: 100%;
+  margin-right: 0;
+}
+
+button.medium, .button.medium {
+  height: 5.7rem !important;
+  line-height: 5.7rem !important;
+  padding: 0 1.8rem !important;
+}
+
+button.large, .button.large {
+  height: 6rem !important;
+  line-height: 6rem !important;
+  padding: 0rem 3rem !important;
+}
+
+button.border, .button.border {
+  background: transparent !important;
+  border: 3px solid #313131;
+  line-height: 4.8rem;
+}
+
+button.border.medium, .button.border.medium {
+  line-height: 5.1rem !important;
+}
+
+button.border.large, .button.border.large {
+  line-height: 5.4rem !important;
+}
+
+a.button.border:hover, .button.border:hover {
+  border: 3px solid #90CAF9  ;
+  color: #90CAF9;  
+  
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
 }
 
 
-body { 
-  /* background: url("../../images/bg.jpg") no-repeat center center fixed;  */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  display:block;
-  background-size: cover;
-}
 
-.name{
-    text-align: center;
-    color: black;
-    
-}
-
-.desc{
-    text-align: center;
-    color: black;
-    
-}
-
-
-
-.vertical-align {
+.table {
+    width: 100%;
+    height: 100%;
+    display: table;
     position: relative;
     text-align: center;
-    padding-top: 35em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
 }
 
-.icon {
-    text-decoration: none;
-    border-bottom: none;
-    text-align: center;
+.cell {
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 500;
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+  }
+  
+
+
+
+.full-width {
+    width: 100%;
+}
+
+.cell .resume{
+    margin: 4.8rem 0 0 0;
+}
+
+.cell .row {
+    position: relative;
+    padding-top: 16.2rem;
+    padding-bottom: 15rem;
+}
+
+.cell .resume .button {
+    border-color: black;
     color: black;
-    font-size: 2em;
 }
 
-.icon:before {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-transform: none !important;
-}
-
-.icon > .label {
-    display: none;
-}
-
-.icon.style2:before {
-    display: inline-block;
-    height: 2.75em;
-    line-height: 2.75em;
-    width: 2.75em;
-}
-
-.icon.major {
-    display: block;
-    margin: 0 0 1rem 0;
-}
-
-.icon.major:before {
-    font-size: 1.25rem;
-}
-
-a.icon.style2:before {
-    -moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-    -webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-    -ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-}
-
-a.icon.style2:hover:before {
-    color: #52B453; 
-    
-}
-
-a.icon.style2:active:before {
-    color: #52B453;
-}
-
-a.button-resume {
+.cell h1 {
+    font-family: "montserrat-bold", serif;
+    font-size: 9rem;
+    line-height: 1.133;
     color: black;
-    border: 2px solid black;  
-    font-family: 'Product Sans', Arial, sans-serif; 
-    font-weight: 100;
-    padding: 5px; 
-    text-decoration:none;
-    font-size: 1.25em;
-    border-radius: 0.4em;
-    -webkit-transition-duration: 0.2s; 
-    transition-duration: 0.2s;
 }
 
-a.button-resume:hover {
-    color: #52B453;
-    border: 2px solid #52B453;  
-    
+.cell h2 {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 2.2rem;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    margin: 0 0 .9rem 0;
 }
+  
+@media only screen and (max-width: 1200px) {
+    .cell h2 {
+      font-size: 2.1rem;
+    }
+    .cell h1 {
+      font-size: 7rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .cell h2 {
+      font-size: 2rem;
+    }
+    .cell h1 {
+      font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cell .row {
+      max-width: 768px;
+    }
+    .cell h2 {
+      font-size: 1.8rem;
+    }
+    .cell h1 {
+      font-size: 5.2rem;
+    }
+    .cell h1 br {
+      display: none;
+    }
+  
+   
+  }
+
+@media only screen and (max-width: 600px) {
+    #main {
+      min-height: 702px;
+    }
+  
+    .cell .row {
+      max-width: 480px;
+      padding-top: 12rem;
+      padding-bottom: 12rem;
+    }
+    .cell h2 {
+      font-size: 1.7rem;
+    }
+    .cell h1 {
+      font-size: 4.8rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .cell .row {
+      max-width: 420px;
+    }
+    .cell h2 {
+      font-size: 1.5rem;
+    }
+    .cell h1 {
+      font-size: 4.2rem;
+    }
+  
+   
+  }
+
+  @media only screen and (max-width: 400px) {
+    #main {
+      min-height: 654px;
+    }
+  
+    .cell .row {
+      padding-top: 4.8rem;
+      padding-bottom: 10.8rem;
+    }
+    .cell h2 {
+      font-size: 1.4rem;
+    }
+    .cell h1 {
+      font-size: 3.6rem;
+    }
+  }
+  
 
