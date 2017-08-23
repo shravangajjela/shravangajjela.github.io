@@ -60,11 +60,11 @@ h1 {
     -moz-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
-    position:fixed;
+    /* position:fixed;
     top:0px;
     bottom:0px;
     left:0px;
-    right:0px;    
+    right:0px;     */
 }
 
 h2 {
@@ -271,11 +271,11 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width: 600px) {
     #main {
-      min-height: 702px;
+      min-height: 90vh;
     }
   
     .cell .row {
-      max-width: 480px;
+      max-width: 600px;
       padding-top: 12rem;
       padding-bottom: 12rem;
     }
@@ -289,7 +289,7 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width: 500px) {
     .cell .row {
-      max-width: 420px;
+      max-width: 500px;
     }
     .cell h2 {
       font-size: 1.5rem;
@@ -303,7 +303,7 @@ input::-moz-focus-inner {
 
   @media only screen and (max-width: 400px) {
     #main {
-      min-height: 654px;
+      min-height: 90vh;
     }
   
     .cell .row {
