@@ -146,8 +146,8 @@ a:focus,a:hover{
     background:0 0
 }
 .btn-circle:focus,.btn-circle:hover{
-    color:red;
-    outline:red;
+    color:grey;
+    outline:grey;
     background:rgba(255,255,255,.1)
 }
 .content-section{
