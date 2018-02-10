@@ -104,12 +104,17 @@ a:focus,a:hover{
     height:auto;
     padding:200px 0;
     text-align:center;
-    color:#242b34;
+    color:#fff;
+    background:url(../img/bg.jpg) no-repeat bottom center scroll;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/bg.jpg);
     background-color:#fff;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size:cover
+}
+.masthead h1{
+    color:#fff;
 }
 .projecthead{
     display:table;
@@ -129,7 +134,7 @@ a:focus,a:hover{
     vertical-align:middle
 }
 .masthead .intro-body .brand-heading{
-    font-size:50px
+    font-size: 65px;
 }
 .masthead .intro-body .intro-text{
     font-size:18px
@@ -140,7 +145,7 @@ a:focus,a:hover{
         padding:0
     }
     .masthead .intro-body .brand-heading{
-        font-size:50px
+        font-size:65px
     }
     .masthead .intro-body .intro-text{
         font-size:22px
@@ -155,13 +160,12 @@ a:focus,a:hover{
     -webkit-transition:background .3s ease-in-out;
     -moz-transition:background .3s ease-in-out;
     transition:background .3s ease-in-out;
-    color: #242b34;
+    color: #fff;
     background:0 0
 }
 .btn-circle:focus,.btn-circle:hover{
-    color:grey;
-    outline:grey;
-    background:rgba(255,255,255,.1)
+    color:#242b34;
+    outline:#242b34;
 }
 .content-section{
     padding-top:120px;
