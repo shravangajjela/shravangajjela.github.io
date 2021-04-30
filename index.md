@@ -2,8 +2,10 @@
 layout: default
 ---
 
-Hey there! I’m a fourth-year Software Engineering student at the University of Waterloo. I have previously interned at Facebook, Shopify, and TD. I'm familiar with C++, Java, and Python. I am particularly interested in distributed systems.
+Hey there, I am an incoming Software Engineer at Facebook NY! 
 
-If you have any interesting oppurtunities, feel free to contact me on one of the platforms above or view my resume.
+I studied Software Engineering at the University of Waterloo and interned at Facebook, Shopify, and TD. I am particularly interested in distributed systems and am familiar with C++, Rust, and Python.
 
-On a non-work related note, I enjoy hiking, reading, and everything space related. 
+On a non-work-related note, I enjoy hiking, reading, and everything space-related. 
+
+If you have any intriguing opportunities, please contact me on one of the platforms above or view my resume.
